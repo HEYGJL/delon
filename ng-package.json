@@ -1,0 +1,21 @@
+{
+  "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
+  "dest": "../../dist/@delon/abc",
+  "lib": {
+    "flatModuleFile": "abc",
+    "entryFile": "public_api.ts"
+  },
+  "whitelistedNonPeerDependencies": [
+    "tslib",
+    "file-saver",
+    "date-fns",
+    "qrious",
+    "isutf8",
+    "@types/jszip",
+    "xlsx",
+    "ngx-countdown",
+    "@delon/theme",
+    "@delon/util",
+    "@delon/acl"
+  ]
+}
